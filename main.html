@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalkiran Kaur | Profile Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: lavender;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 100px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        /* Main layout using Grid */
+        main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        /* Left Section */
+        .left-section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* Right Section */
+        .right-section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: darkblue;
+            border-bottom: 2px solid darkblue;
+            padding-bottom: 5px;
+        }
+
+        /* Flexbox for Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e6e6fa;
+            padding: 8px 15px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        /* Useful Links styling */
+        a {
+            color: darkblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Jalkiran Kaur</h1>
+        <p>Student of Artificial Intelligence and Data Science</p>
+        <img src="mypic.jpg" alt="Profile Picture">
+    </header>
+
+    <!-- Main Grid Section -->
+    <main>
+        <!-- Left Section -->
+        <div class="left-section">
+            <h2>Quick Info</h2>
+            <p><b>Course:</b> B.Tech in AI & Data Science</p>
+            <p><b>Interest Areas:</b> Technology, Web Development, and AI</p>
+
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://www.geeksforgeeks.org" target="_blank">GeeksforGeeks</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <h2>About Me</h2>
+            <p>Hello! My name is <b>Jalkiran Kaur</b>.  
+            I am passionate about learning technology, solving problems, and building a strong career in IT.  
+            I enjoy working with AI concepts and web technologies.</p>
+
+            <h2>Academics</h2>
+            <p>Currently pursuing <b>Bachelor’s in AI & Data Science</b>.  
+            Completed higher secondary with a strong focus on Science and Mathematics.</p>
+
+            <h2>Skills </h2>
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Problem Solving</div>
+                <div class="skill">Teamwork</div>
+                <div class="skill">Communication</div>
+            </div>
+
+            
+        
+    </main>
+
+    <footer>
+        &copy; 2025 Jalkiran Kaur | All Rights Reserved
+    </footer>
+</body>
+</html>
